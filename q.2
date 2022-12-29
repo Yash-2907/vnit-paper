@@ -1,0 +1,26 @@
+//q.2
+#include<stdio.h>
+int main()
+{
+  int a,b,temp=0,n1=1,n2=0,x=0;
+  printf("pls enter the two numbers you want to check in ascending order respectively :- ");
+  scanf("%d%d",&a,&b);
+  while(temp<=b)
+  {
+   temp=n1+n2;
+   if((temp==b)&&(n2==a))
+   {
+    x=1;
+   }
+   n2=n1;
+   n1=temp;
+  }
+  if(x==1)
+  {
+    printf("YES IT IS ALTERNATE TERM OF FIBONACCI SERIES");
+  }
+  else{
+    printf("NO IT IS NOT ALTERNATE TERM OF FIBONACCI SERIES");
+  }
+  return 0;
+}
