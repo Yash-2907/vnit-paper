@@ -1,0 +1,23 @@
+//q.6
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int x,z,n,i,y=1,j;
+  float fact=1.0,sum=0.0,term;
+  printf("please enter value of X for series(numerator) :- ");
+  scanf("%d",&x);
+  printf("please enter value of N(number of terms) :- ");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+  {
+   for(j=1;j<=i;j++)
+   {
+    fact=fact*j;
+   }
+   term=(pow(x,y))/fact;
+   sum=sum+term;
+   y=y+1;
+  }
+  printf("total sum of series =%f",sum);
+}
