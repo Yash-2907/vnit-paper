@@ -1,0 +1,55 @@
+//q.7
+#include<stdio.h>
+int main()
+{
+  int n,num,x,y,i,j,m,k,l,p;
+  printf("pls enter the value of n where it is a n*n matrix :- ");
+  scanf("%d",&n);
+  printf("pls enter the number to fill :- ");
+  scanf("%d",&num);
+  x=(n+1)/2;
+  y=1;
+  m=x-1;
+  for(i=1;i<x;i++)
+  {
+    for(j=0;j<m;j++)
+    {
+      printf("1");
+    }
+    for(k=0;k<y;k++)
+    {
+      printf("%d",num);
+    }
+    for(l=0;l<m;l++)
+    {
+      printf("1");
+    }
+    printf("\n");
+    y=y+2;
+    m=m-1;
+  }
+  for(i=0;i<n;i++)
+  {
+    printf("%d",num);
+  }
+  printf("\n");
+  p=n-2;
+for(i=1;i<x;i++)
+{
+  for(j=0;j<i;j++)
+  {
+    printf("1");
+  }
+  for(k=0;k<p;k++)
+  {
+  printf("%d",num);
+  }
+  for(j=0;j<i;j++)
+  {
+    printf("1");
+  }
+  printf("\n");
+  p=p-2;
+}
+return 0;
+}
