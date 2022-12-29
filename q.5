@@ -1,0 +1,24 @@
+//q.5
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int n,num=0,temp;
+  double y=0;
+  printf("please enter the length of the binary :- ");
+  scanf("%d",&n);
+  int arr[n],i;
+  printf("please enter the binary digits right to left respectively :- ");
+  for(i=0;i<n;i++)
+  {
+    scanf("%d",&arr[i]);
+  }
+  for(i=0;i<n;i++)
+  {
+   temp=arr[i]*(pow(2,y));
+   num=num+temp;
+   y=y+1;
+  }
+  printf("decimal equivalent is =%d",num);
+  return 0;
+}
