@@ -1,55 +1,47 @@
-//q.7
+//q.4
 #include<stdio.h>
 int main()
 {
-  int n,num,x,y,i,j,m,k,l,p;
-  printf("pls enter the value of n where it is a n*n matrix :- ");
-  scanf("%d",&n);
-  printf("pls enter the number to fill :- ");
-  scanf("%d",&num);
-  x=(n+1)/2;
-  y=1;
-  m=x-1;
-  for(i=1;i<x;i++)
+  int x,y,z,gt,avg,a,b,c;
+  printf("please enter your marks in three subjects respectively (between 1-10) :- ");
+  scanf("%d%d%d",&a,&b,&c);
+  if((a>=5)&&(b>=5)&&(c>=5))
   {
-    for(j=0;j<m;j++)
+   if((a>b)&&(a>c))
+   {
+    if(b>c)
     {
-      printf("1");
+      printf("marks in ascending order is :-%d %d %d",c,b,a);
     }
-    for(k=0;k<y;k++)
+    else{
+      printf("marks in ascending order is :-%d %d %d",b,c,a);
+    }
+   }
+   else if((b>c)&&(b>a))
+   {
+     if(a>c)
     {
-      printf("%d",num);
+      printf("marks in ascending order is :-%d %d %d",c,a,b);
     }
-    for(l=0;l<m;l++)
+    else{
+      printf("marks in ascending order is :-%d %d %d",a,c,b);
+    }
+   }
+   else
+   {
+     if(a>b)
     {
-      printf("1");
+      printf("marks in ascending order is :-%d %d %d",b,a,c);
     }
-    printf("\n");
-    y=y+2;
-    m=m-1;
+    else{
+      printf("marks in ascending order is :-%d %d %d",a,b,c);
+    }
+   }
   }
-  for(i=0;i<n;i++)
+  else
   {
-    printf("%d",num);
+    avg=(a+b+c)/3;
+    printf("average is = %d",avg);
   }
-  printf("\n");
-  p=n-2;
-for(i=1;i<x;i++)
-{
-  for(j=0;j<i;j++)
-  {
-    printf("1");
-  }
-  for(k=0;k<p;k++)
-  {
-  printf("%d",num);
-  }
-  for(j=0;j<i;j++)
-  {
-    printf("1");
-  }
-  printf("\n");
-  p=p-2;
-}
-return 0;
+  return 0;
 }
