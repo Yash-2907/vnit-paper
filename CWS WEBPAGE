@@ -1,0 +1,27 @@
+<html>
+    <head><title></title></head>
+<body bgcolor="aqua">
+<h1><b><u><font color="blue">ABOUT ME</font></u></b></h1>
+<h3><span><b><u><font color="red">NAME</font></u></b></span>:- Yash Gupta</h3>
+<h3><span><b><u><font color="red">YEAR</font></u></b></span>:- 1st year Btech</h3> 
+<h3><span><b><u><font color="red">BRANCH</font></u></b></span>:- CSE (Cyber Security)</h3> 
+<h3><span><b><u><font color="red">ROLL NO.</font></u></b></span>:- 84 D3</h3>
+<h3><span><b><u><font color="red">BLUEPRINT DESIGN FOR SITE</font></u></b></span>:- <img src="C:\Users\CNC-01\Desktop\YG84PAINT.png"> </h3> 
+<h1><b><u><font color="blue">CONTACT INFO(CLICK TO VISIT) :-</font></u></b></h1>
+<h3><span><b><u><font color="red">INSTAGRAM</font></u></b></span>:- <a href="https://instagram.com/yash_2907_gupta?igshid=NDk5N2NIZjQ=">Yash_2907_gupta</a></h3>
+<h3><span><b><u><font color="red">LINKEDIN</font></u></b></span>:- <a href="https://www.linkedin.com/in/yash-gupta-b16403255?original_referer=https%3A%2F%2Fl.instagram.com%2F">Yash gupta</a></h3>
+<h3><span><b><u><font color="red">Ph no.</font></u></b></span>:- 7558520376</h3>
+<h3><span><b><u><font color="red">GMAIL</font></u></b></span>:- Yash42gupta@gmail.com</h3>    
+<h1><b><u><font color="blue"> DESCRIPTION:-</font></u></b></h1>
+<p>Hello my name is yash , and currenlty I am in my first year of btech and persuing CSE (cyber security) at SHRI RAMDEOBABA COLLEGE OF ENGINEERING AND MANAGMENT(rcoem) , this is a project at CWS lab class where we are learning HTML and trying out different tags with which we will be working , thats all about me , thanks for reading :).  </p>
+<h1><b><u><font color="blue">10th MARKSHEET:-</font></u></b></h1>
+<table border="1">
+<tr>
+    <th>Sr no.</th>
+    <th>Subject</th>
+    <th>Total</th>
+    <th>Marks obtained</th>
+</tr>
+</table>
+</body>
+</html>
